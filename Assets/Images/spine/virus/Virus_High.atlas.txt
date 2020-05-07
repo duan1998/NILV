@@ -1,0 +1,48 @@
+
+Virus_High.png
+size: 67,30
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btm
+  rotate: true
+  xy: 51, 4
+  size: 24, 9
+  orig: 26, 11
+  offset: 1, 1
+  index: -1
+pt_a
+  rotate: false
+  xy: 62, 19
+  size: 3, 3
+  orig: 5, 5
+  offset: 1, 1
+  index: -1
+pt_b
+  rotate: true
+  xy: 62, 24
+  size: 4, 3
+  orig: 6, 5
+  offset: 1, 1
+  index: -1
+pt_c
+  rotate: false
+  xy: 62, 16
+  size: 1, 1
+  orig: 3, 3
+  offset: 1, 1
+  index: -1
+up_a
+  rotate: true
+  xy: 2, 16
+  size: 12, 47
+  orig: 14, 49
+  offset: 1, 1
+  index: -1
+up_b
+  rotate: true
+  xy: 2, 2
+  size: 12, 47
+  orig: 14, 49
+  offset: 1, 1
+  index: -1

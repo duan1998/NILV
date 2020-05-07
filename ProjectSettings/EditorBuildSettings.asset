@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/NewAssets/DirtyHeart/scene/Main.unity
+    guid: 7b0dbdb00f0c5184ea70a2fb91424ba2
+  - enabled: 0
+    path: Assets/NewAssets/Cuikq/Scenes/TestScene1.unity
+    guid: 96e4c360b5958ea4ba1b7c1c443d56c6
+  - enabled: 1
+    path: Assets/NewAssets/Cuikq/Scenes/TestScene2.unity
+    guid: 730e99a797a3ecc489eecf4d5787dea2
+  - enabled: 1
+    path: Assets/NewAssets/DirtyHeart/scene/Newlevel1.unity
+    guid: 648c122ffb88d3c4db63cb083e05310d
+  - enabled: 1
+    path: Assets/NewAssets/DirtyHeart/scene/Newlevel2.unity
+    guid: acf9cd3a166da8d41a3cb98682900af3
+  - enabled: 1
+    path: Assets/NewAssets/DirtyHeart/scene/Newlevel3.unity
+    guid: c546422f9bc7e2e41bb4c15b97ff66dd
+  - enabled: 0
+    path: Assets/NewAssets/DirtyHeart/scene/Newlevel4.unity
+    guid: 62d7c9f6c74cbfb418f7e1a6850a3cf5
+  - enabled: 0
+    path: Assets/NewAssets/DirtyHeart/scene/level5.unity
+    guid: bd712e9ebef5406499c836026445091d
+  m_configObjects: {}
