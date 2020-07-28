@@ -884,7 +884,7 @@ PrefabInstance:
     - target: {fileID: 5115245951538938125, guid: 6211dfd02167c95488cc7290990e42b6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.01635
+      value: -5.9782887
       objectReference: {fileID: 0}
     - target: {fileID: 5115245951538938125, guid: 6211dfd02167c95488cc7290990e42b6,
         type: 3}
@@ -1177,6 +1177,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []

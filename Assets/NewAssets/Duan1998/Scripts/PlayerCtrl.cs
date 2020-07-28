@@ -35,6 +35,8 @@ namespace Duan1998
         private float m_bearMoveSpeed = 100f;
         [SerializeField]
         private float m_jumpForce = 5f;
+        [SerializeField]
+        private float m_bearGoodJF = 1f;
 
 
         private BearState m_curBearState;
@@ -118,7 +120,7 @@ namespace Duan1998
                 m_isGround = IsGround();
 
                 jump = false;
-                if (Input.GetKeyDown(KeyCode.Space) && m_curBearState == BearState.None && m_isGround)
+                if (Input.GetKeyDown(KeyCode.Space) && m_isGround)
                 {
                     jump = true;
                 }
@@ -165,7 +167,10 @@ namespace Duan1998
                 _HorizontalMove = false;
             if (jump)
             {
-                targetVelocity.y = m_jumpForce;
+                if (m_curBearState == BearState.Good)
+                    targetVelocity.y = m_bearGoodJF;
+                else if(m_curBearState==BearState.None)
+                    targetVelocity.y = m_jumpForce;
             }
             m_rigid2D.velocity = targetVelocity;
         }
