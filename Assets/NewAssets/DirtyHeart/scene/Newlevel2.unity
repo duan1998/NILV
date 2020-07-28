@@ -3347,6 +3347,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea57ca9a525d24842ba03731e5511fa0, type: 3}
+--- !u!4 &1753330047 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 981448270903469737, guid: 4ec253d703972f0409c7aa242a29b129,
+    type: 3}
+  m_PrefabInstance: {fileID: 756658577}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1772883492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3503,7 +3509,7 @@ PrefabInstance:
     - target: {fileID: 5115245951538938125, guid: 6211dfd02167c95488cc7290990e42b6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.616351
+      value: -5.578289
       objectReference: {fileID: 0}
     - target: {fileID: 5115245951538938125, guid: 6211dfd02167c95488cc7290990e42b6,
         type: 3}
@@ -4960,6 +4966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6589419699303937312}
   - component: {fileID: 6589419699303937319}
+  - component: {fileID: 6589419699303937320}
   m_Layer: 0
   m_Name: BG (1)
   m_TagString: Untagged
@@ -5017,6 +5024,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6589419699303937320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6589419699303937318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82abde37b63f7f443bf69f4724768ff3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followCameraTrans: {fileID: 1753330047}
 --- !u!1 &6613174717660019040
 GameObject:
   m_ObjectHideFlags: 0
